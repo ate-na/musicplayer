@@ -1,0 +1,25 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px; 
+}
+button{
+    z-index: 10;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border: none;
+    background-color: transparent;
+    border: 2px solid gray;
+    padding: 0.5rem;
+    border-radius: 2px;
+    &:hover{
+        background-color: gray;
+        color: white;
+    }
+    p,i{
+        display: flex;
+        justify-content: center;    
+    }
+    transition: all 0.3s ease;  
+}
